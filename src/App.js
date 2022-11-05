@@ -43,7 +43,7 @@ function App() {
         
         <div style={{width: "100%", background: "rgba(255, 255, 255, 0.6)"}}>
           <div style={{paddingTop: isPc ? "126px" : "44px"}}>
-            <h1>Cyber Ink world view</h1>
+            <h1>CYBER INK WORLD VIEW</h1>
           </div>
           
           <div style={{marginTop: "44px"}}>
