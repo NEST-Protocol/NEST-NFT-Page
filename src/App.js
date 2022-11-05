@@ -11,6 +11,9 @@ import peardao from "./assets/peardao@2x.png"
 import point from "./assets/point@2x.png"
 
 function App() {
+  // pc or mobile phone
+  const isPc = window.innerWidth > 768;
+  
   return (
       <div style={{
         textAlign: "center",
@@ -26,17 +29,20 @@ function App() {
         </a>
         
         <div style={{paddingTop: "96px"}}>
-          <h1>Cyber ink</h1>
-          <p style={{marginTop: '15px'}}>Is a collection of 10,000 on the blockchain.<br/>
-            What’s more, each Cyber ink unlocks NEST Fi membership<br/>
-            and additional benefits the longer you hold them.</p>
+          <h1>Cyber Ink</h1>
+          <p style={{marginTop: '15px'}}>is a collection of 10,000 NFTs on the blockchain.<br/>
+            What's more, each Cyber Ink can unlock the <br/>NEST Fi membership and additional benefits.</p>
         </div>
-        
-        <img src={_4nft} alt={'4nft'} style={{height: "465px", marginTop: "67px"}}/>
+  
+        { isPc ? (
+            <img src={_4nft} alt={'4nft'} style={{height: "465px", marginTop: "67px"}}/>
+        ) : (
+            <img src={_4nft} alt={'4nft'} style={{height: "465px", width: "300px", objectFit: "cover", overflow: "hidden", marginTop: "67px"}}/>
+        ) }
         
         <div style={{width: "100%", background: "rgba(255, 255, 255, 0.6)"}}>
           <div style={{paddingTop: "126px"}}>
-            <h1>Cyber ink world view</h1>
+            <h1>Cyber Ink world view</h1>
           </div>
           
           <div style={{marginTop: "44px"}}>
@@ -147,21 +153,21 @@ function App() {
           <h1>NFT Shop</h1>
           <div style={{display: "flex", marginTop: "78px"}}>
             <div style={{marginRight: "200px"}}>
-              <a href={"https://finance.nestprotocol.org/"} target={"_blank"}>
+              {/*<a href={"https://finance.nestprotocol.org/"} target={"_blank"}>*/}
                 <img src={nestfi} alt={'nestfi'} style={{width: "94px", height: "94px", marginBottom: "24px"}}/>
-              </a>
+              {/*</a>*/}
               <p>NEST Fi</p>
             </div>
             <div style={{marginRight: "200px"}}>
-              <a href={"https://www.element.market/"} target={"_blank"}>
+              {/*<a href={"https://www.element.market/"} target={"_blank"}>*/}
                 <img src={element} alt={'element'} style={{width: "94px", height: "94px", marginBottom: "24px"}}/>
-              </a>
+              {/*</a>*/}
               <p>element</p>
             </div>
             <div>
-              <a href={"https://peardao.io/"} target={"_blank"}>
+              {/*<a href={"https://peardao.io/"} target={"_blank"}>*/}
                 <img src={peardao} alt={'peardao'} style={{width: "94px", height: "94px", marginBottom: "24px"}}/>
-              </a>
+              {/*</a>*/}
               <p>PearDAO</p>
             </div>
           </div>
@@ -171,7 +177,7 @@ function App() {
           <h1>Road map</h1>
           <div style={{
             width: "1px",
-            height: "1380px",
+            height: "1100px",
             background: "#C9C9C9",
             position: "absolute",
             left: "50%",
@@ -184,103 +190,66 @@ function App() {
                 <img src={point} alt={'point'} style={{width: "100%", height: "100%"}}/>
               </div>
               <div style={{textAlign: "start", width: "450px"}}>
-                <p>Total offering of 10,000 NFT(NEST token already listed)<br/>
-                  <br/>
-                  Project worldview announced<br/>
-                  <br/>
-                  First sale of 3,000 NFT (bsc):
+                <p>The first round of sale Offer 3,200 NFTs (BNB Chain) for sale<br/>
                 </p>
                 <p style={{fontWeight: "normal"}}>
-                  1. 2,000 Mystery Box on sale<br/>
-                  2. 500 Binance NFTs on sale<br/>
-                  3. 500 Whitelist
+                  1. 1,920 Mystery Box sell on NESTFi;<br/>
+                  2. 240 NFTs INO on Element;<br/>
+                  3. 240 NFTs INO on PearDAO;<br/>
+                  4. 800 Whitelist (Buy any NFTs with a 30% discount)
                 </p>
               </div>
             </div>
             
             <div style={{display: "flex", marginTop: '70px'}}>
-              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>Start after 80%<br/>
-                of the first round is sold</p>
+              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>Start after 80% of the NFTs
+                in the first round are sold</p>
               <div style={{marginLeft: "40px", marginRight: "40px", height: "24px", width: "36px"}}>
                 <img src={point} alt={'point'} style={{width: "100%", height: "100%"}}/>
               </div>
               <div style={{textAlign: "start", width: "450px"}}>
-                <p>Second round of 3000 NFT (bsc): </p>
+                <p>The second round sale</p>
                 <p style={{fontWeight: "normal"}}>
-                  1. 2,000 Mystery Box on sale<br/>
-                  2. 500 Binance NFTs on sale<br/>
-                  3. 500 Whitelist
-                </p>
-                <br/>
-                <p>
-                  Independent Community
-                </p>
-                <p style={{fontWeight: "normal"}}>
-                  1. Start collaborative storytelling in the community
-                  2. Community mystery box airdrop
+                  1. Offer 3,200 NFTs (BNB Chain) for sale
+                  Independent Community<br/>
+                  2. Start collaborative storytelling in the community<br/>
+                  3. Community mystery box airdrop
                 </p>
               </div>
             </div>
             
             <div style={{display: "flex", marginTop: '70px'}}>
-              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>Start after
-                100%<br/>
-                of the first round is sold</p>
+              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>After 100% of the NFTs in the first round are sold
+               </p>
               <div style={{marginLeft: "40px", marginRight: "40px", height: "24px", width: "36px"}}>
                 <img src={point} alt={'point'} style={{width: "100%", height: "100%"}}/>
               </div>
               <div style={{textAlign: "start", width: "450px"}}>
                 <p>NFT Utility</p>
                 <p style={{fontWeight: "normal"}}>
-                  1. Activate the rights and benefits of "holding NFT" in<br/>
-                  NEST Fi, the rights and benefits vary according to the rarity.<br/>
+                  1. Activate the rights and benefits of "holding NFT" in NEST Fi, the rights and benefits vary according to the rarity.
                   2. Hold NFT to get extra token rewards
                 </p>
               </div>
             </div>
             
             <div style={{display: "flex", marginTop: '70px'}}>
-              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>Fist and second
-                start<br/>
-                after 80% of rounds sold</p>
+              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>After 80% of the NFTs in the second round are sold</p>
               <div style={{marginLeft: "40px", marginRight: "40px", height: "24px", width: "36px"}}>
                 <img src={point} alt={'point'} style={{width: "100%", height: "100%"}}/>
               </div>
               <div style={{textAlign: "start", width: "450px"}}>
-                <p>Brand collaboration exclusive NFT on sale</p>
+                <p>The third round sale</p>
                 <p style={{fontWeight: "normal"}}>
-                  1. 1000 exclusive NFTs in collaboration with brands<br/>
-                  available in mystery boxes
-                </p>
-                <br/>
-                <p>Surrounding rights unlocked</p>
-                <p style={{fontWeight: "normal"}}>
-                  1. The rights are unlocked and limited surrounding<br/>
-                  products are given away
+                  1. Offer 3,200 NFTs (Ethereum) for sale Brand collaboration exclusive NFT on sale<br/>
+                  2. 600 exclusive NFTs in collaboration with brands available in mystery boxes Surrounding rights unlocked<br/>
+                  3. The rights are unlocked and limited surrounding products are given away
                 </p>
               </div>
             </div>
             
             <div style={{display: "flex", marginTop: '70px'}}>
-              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>Start after 80%
-                of<br/>
-                the second round is sold</p>
-              <div style={{marginLeft: "40px", marginRight: "40px", height: "24px", width: "36px"}}>
-                <img src={point} alt={'point'} style={{width: "100%", height: "100%"}}/>
-              </div>
-              <div style={{textAlign: "start", width: "450px"}}>
-                <p>Third round of 3000 NFT (eth):</p>
-                <p style={{fontWeight: "normal"}}>
-                  1. 2,000 Mystery Box on sale<br/>
-                  2. 500 open sea / coinbase sale<br/>
-                  3. 500 Whitelist
-                </p>
-              </div>
-            </div>
-            
-            <div style={{display: "flex", marginTop: '70px'}}>
-              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>80% of all sold<br/>
-                the second round is sold</p>
+              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>After 80% of all the NFTs are sold the second round is sold</p>
               <div style={{marginLeft: "40px", marginRight: "40px", height: "24px", width: "36px"}}>
                 <img src={point} alt={'point'} style={{width: "100%", height: "100%"}}/>
               </div>
@@ -293,25 +262,22 @@ function App() {
             </div>
             
             <div style={{display: "flex", marginTop: '70px'}}>
-              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>100% of all
-                sold<br/>
-                the second round is sold</p>
+              <p style={{fontSize: "25px", fontWeight: "bold", width: "450px", textAlign: "right"}}>After 100% of all the NFTs are sold</p>
               <div style={{marginLeft: "40px", marginRight: "40px", height: "24px", width: "36px"}}>
                 <img src={point} alt={'point'} style={{width: "100%", height: "100%"}}/>
               </div>
               <div style={{textAlign: "start", width: "450px"}}>
-                <p>P2E (gamefi)</p>
+                <p>P2E (Gamefi)</p>
                 <p style={{fontWeight: "normal"}}>
-                  1. The adoption of collaborative story creation will be included<br/>
-                  in the game bonus program<br/>
-                  2. hold NFT will be included in the game bonus program
+                  1. The adoption of collaborative story creation will be included in the game bonus program<br/>
+                  2. Hold NFT will be included in the game bonus program
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-  );
+  )
 }
 
 export default App;
