@@ -55,7 +55,8 @@ function App() {
                   and humanity has long past the Earth Age and entered the Interstellar Age.<br/>
                   In such a milieu, the idea of life, mind, and race have evolved radically, and the signals</p>
             ) : (
-                <p style={{marginTop: "22px", padding: "0 12px"}}>The overall setting is in the year 3241, when the galactic horizon has
+                <p style={{marginTop: "22px", padding: "0 12px"}}>The overall setting is in the year 3241, when the
+                  galactic horizon has
                   been opened and humanity has long past the Earth Age and entered the Interstellar Age.
                   In such a milieu, the idea of life, mind, and race have evolved radically, and the signals</p>
             )}
@@ -81,7 +82,8 @@ function App() {
                   creature’s secrets; it is in this context that the Six<br/>
                   People Club was chosen. </p>
             ) : (
-                <p style={{ padding: "0 12px" }}>An inorganic entity that differs from AI, animals, and humans but has comparable
+                <p style={{padding: "0 12px"}}>An inorganic entity that differs from AI, animals, and humans but has
+                  comparable
                   constructions to Earth species has lately surfaced on Earth. However,
                   none of these structures are made up of proteins. These animals are
                   highly dangerous, impossible to eliminate with human force,
@@ -114,7 +116,7 @@ function App() {
                   impossible for Earth to survive.
                 </p>
             ) : (
-                <p style={{ padding: "0 12px" }}>Some people chose to merge with AI once AI surpassed humans. Their
+                <p style={{padding: "0 12px"}}>Some people chose to merge with AI once AI surpassed humans. Their
                   consciousness separated from their bodies and evolved into a new form,
                   parasitic on the AI’s algorithm, existing as a kind of metacontrol
                   over the AI’s program, known as a Soul Chip. AI has perfected
@@ -144,7 +146,8 @@ function App() {
                   the ability to think. Humans were ecstatic when they<br/>
                   learned about Planet X through Galaxy Z insiders. </p>
             ) : (
-                <p style={{ padding: "0 12px" }}>The ai probe "Turing" discovered it around the year 2900, with cosmic coordinates
+                <p style={{padding: "0 12px"}}>The ai probe "Turing" discovered it around the year 2900, with cosmic
+                  coordinates
                   (1.27.33.189.7). The planet has a vast number of living organisms that are similar to those
                   vast number of living organisms that are similar to those found on Earth. Surprisingly,
                   a new material has emerged on the planet: Substance Consciousness.
@@ -187,7 +190,8 @@ function App() {
                   different path of intelligence than that of Galaxy Z’s AI. What’s more terrifying<br/>
                   is that the creature’s intelligence is comparable to that of humans… </p>
             ) : (
-                <p style={{ padding: "0 12px" }}>After around 200 years, the AI arrived in a galaxy most suited for massenergy
+                <p style={{padding: "0 12px"}}>After around 200 years, the AI arrived in a galaxy most suited for
+                  massenergy
                   conversion. There were 100 billion planets in the galaxy. The AI immediately released the
                   300,000 stored algorithms and built bases to reproduce the 100 billion
                   AIs that inhabited each of the 100 billion worlds. A Soul Chip, based on its attachment to the
@@ -224,24 +228,24 @@ function App() {
           <h1>NFT Shop</h1>
           <div style={{display: "flex", marginTop: "78px"}}>
             <div style={{marginRight: isPc ? "200px" : "60px"}}>
-              {/*<a href={"https://finance.nestprotocol.org/"} target={"_blank"}>*/}
-              <img src={nestfi} alt={'nestfi'}
-                   style={{width: isPc ? "94px" : "44px", height: isPc ? "94px" : "44px", marginBottom: "24px"}}/>
-              {/*</a>*/}
+              <a href={"https://finance.nestprotocol.org/#/NFTAuction"} target={"_blank"}>
+                <img src={nestfi} alt={'nestfi'}
+                     style={{width: isPc ? "94px" : "44px", height: isPc ? "94px" : "44px", marginBottom: "24px"}}/>
+              </a>
               <p>NEST Fi</p>
             </div>
             <div style={{marginRight: isPc ? "200px" : "60px"}}>
-              {/*<a href={"https://www.element.market/"} target={"_blank"}>*/}
-              <img src={element} alt={'element'}
-                   style={{width: isPc ? "94px" : "44px", height: isPc ? "94px" : "44px", marginBottom: "24px"}}/>
-              {/*</a>*/}
+              <a href={"https://www.element.market/collections/nest-cyber-ink"} target={"_blank"}>
+                <img src={element} alt={'element'}
+                     style={{width: isPc ? "94px" : "44px", height: isPc ? "94px" : "44px", marginBottom: "24px"}}/>
+              </a>
               <p>element</p>
             </div>
             <div>
-              {/*<a href={"https://peardao.io/"} target={"_blank"}>*/}
-              <img src={peardao} alt={'peardao'}
-                   style={{width: isPc ? "94px" : "44px", height: isPc ? "94px" : "44px", marginBottom: "24px"}}/>
-              {/*</a>*/}
+              <a href={"https://peardao.io/nftMarketplace/ino/nest"} target={"_blank"}>
+                <img src={peardao} alt={'peardao'}
+                     style={{width: isPc ? "94px" : "44px", height: isPc ? "94px" : "44px", marginBottom: "24px"}}/>
+              </a>
               <p>PearDAO</p>
             </div>
           </div>
