@@ -228,7 +228,7 @@ function App() {
           <h1>NFT Shop</h1>
           <div style={{display: "flex", marginTop: "78px"}}>
             <div style={{marginRight: isPc ? "200px" : "60px"}}>
-              <a href={"https://finance.nestprotocol.org/#/NFTAuction"} target={"_blank"}>
+              <a href={"https://cyberink.info/#/NFTAuction"} target={"_blank"}>
                 <img src={nestfi} alt={'nestfi'}
                      style={{width: isPc ? "94px" : "44px", height: isPc ? "94px" : "44px", marginBottom: "24px"}}/>
               </a>
