@@ -30,7 +30,7 @@ function App() {
         
         <div style={{paddingTop: isPc ? "96px" : "130px"}}>
           <h1>Cyber Ink</h1>
-          <p style={{marginTop: '15px'}}>is a collection of 10,000 NFTs on the blockchain.<br/>
+          <p style={{marginTop: '15px', color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400}}>is a collection of 10,000 NFTs on the blockchain.<br/>
             What's more, each Cyber Ink can unlock the <br/>NEST Fi membership and additional benefits.</p>
         </div>
         
@@ -49,19 +49,19 @@ function App() {
           <div style={{marginTop: "44px"}}>
             <h2>The story of Six People Club</h2>
             {isPc ? (
-                <p style={{marginTop: "22px"}}>The overall setting is in the year 3241, when the galactic horizon has
+                <p style={{marginTop: "22px", color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400}}>The overall setting is in the year 3241, when the galactic horizon has
                   been
                   opened<br/>
                   and humanity has long past the Earth Age and entered the Interstellar Age.<br/>
                   In such a milieu, the idea of life, mind, and race have evolved radically, and the signals</p>
             ) : (
-                <p style={{marginTop: "22px", padding: "0 12px"}}>The overall setting is in the year 3241, when the
+                <p style={{marginTop: "22px", padding: "0 24px", color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400}}>The overall setting is in the year 3241, when the
                   galactic horizon has
                   been opened and humanity has long past the Earth Age and entered the Interstellar Age.
                   In such a milieu, the idea of life, mind, and race have evolved radically, and the signals</p>
             )}
             
-            <p>The story begins with the secret landing of<br/>
+            <p style={{ color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400 }}>The story begins with the secret landing of<br/>
               the Six People Club on Planet X.</p>
           </div>
           
@@ -71,7 +71,7 @@ function App() {
             </div>
             <h2 style={{marginTop: "44px", marginBottom: "24px"}}>Six People Club</h2>
             {isPc ? (
-                <p>An inorganic entity that differs from AI, animals, and humans but has comparable<br/>
+                <p style={{ color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400 }}>An inorganic entity that differs from AI, animals, and humans but has comparable<br/>
                   constructions to Earth species has lately surfaced on Earth. However,<br/>
                   none of these structures are made up of proteins. These animals are<br/>
                   highly dangerous, impossible to eliminate with human force,<br/>
@@ -82,7 +82,7 @@ function App() {
                   creature’s secrets; it is in this context that the Six<br/>
                   People Club was chosen. </p>
             ) : (
-                <p style={{padding: "0 12px"}}>An inorganic entity that differs from AI, animals, and humans but has
+                <p style={{padding: "0 24px", color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400}}>An inorganic entity that differs from AI, animals, and humans but has
                   comparable
                   constructions to Earth species has lately surfaced on Earth. However,
                   none of these structures are made up of proteins. These animals are
@@ -102,7 +102,7 @@ function App() {
             </div>
             <h2 style={{marginTop: "44px", marginBottom: "24px"}}>The story of Earth</h2>
             {isPc ? (
-                <p>Some people chose to merge with AI once AI surpassed humans. Their<br/>
+                <p style={{ color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400 }}>Some people chose to merge with AI once AI surpassed humans. Their<br/>
                   consciousness separated from their bodies and evolved into a new form, <br/>
                   parasitic on the AI’s algorithm, existing as a kind of metacontrol<br/>
                   over the AI’s program, known as a Soul Chip. AI has perfected<br/>
@@ -116,7 +116,7 @@ function App() {
                   impossible for Earth to survive.
                 </p>
             ) : (
-                <p style={{padding: "0 12px"}}>Some people chose to merge with AI once AI surpassed humans. Their
+                <p style={{padding: "0 24px", color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400}}>Some people chose to merge with AI once AI surpassed humans. Their
                   consciousness separated from their bodies and evolved into a new form,
                   parasitic on the AI’s algorithm, existing as a kind of metacontrol
                   over the AI’s program, known as a Soul Chip. AI has perfected
@@ -138,7 +138,7 @@ function App() {
             </div>
             <h2 style={{marginTop: "44px", marginBottom: "24px"}}>The story of Planet X</h2>
             {isPc ? (
-                <p>The ai probe "Turing" discovered it around the year 2900, with cosmic coordinates <br/>
+                <p style={{ color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400 }}>The ai probe "Turing" discovered it around the year 2900, with cosmic coordinates <br/>
                   (1.27.33.189.7). The planet has a vast number of living organisms that are similar to those<br/>
                   vast number of living organisms that are similar to those found on Earth. Surprisingly, <br/>
                   a new material has emerged on the planet: Substance Consciousness.<br/>
@@ -146,7 +146,7 @@ function App() {
                   the ability to think. Humans were ecstatic when they<br/>
                   learned about Planet X through Galaxy Z insiders. </p>
             ) : (
-                <p style={{padding: "0 12px"}}>The ai probe "Turing" discovered it around the year 2900, with cosmic
+                <p style={{padding: "0 24px", color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400}}>The ai probe "Turing" discovered it around the year 2900, with cosmic
                   coordinates
                   (1.27.33.189.7). The planet has a vast number of living organisms that are similar to those
                   vast number of living organisms that are similar to those found on Earth. Surprisingly,
@@ -170,7 +170,7 @@ function App() {
             </div>
             <h2 style={{marginTop: "44px", marginBottom: "24px"}}>The story of Galaxy Z</h2>
             {isPc ? (
-                <p>After around 200 years, the AI arrived in a galaxy most suited for massenergy<br/>
+                <p style={{ color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400 }}>After around 200 years, the AI arrived in a galaxy most suited for massenergy<br/>
                   conversion. There were 100 billion planets in the galaxy. The AI immediately released the<br/>
                   300,000 stored algorithms and built bases to reproduce the 100 billion <br/>
                   AIs that inhabited each of the 100 billion worlds. A Soul Chip, based on its attachment to the
@@ -190,7 +190,7 @@ function App() {
                   different path of intelligence than that of Galaxy Z’s AI. What’s more terrifying<br/>
                   is that the creature’s intelligence is comparable to that of humans… </p>
             ) : (
-                <p style={{padding: "0 12px"}}>After around 200 years, the AI arrived in a galaxy most suited for
+                <p style={{padding: "0 24px", color: 'rgba(3, 3, 8, 0.6)', fontWeight: 400}}>After around 200 years, the AI arrived in a galaxy most suited for
                   massenergy
                   conversion. There were 100 billion planets in the galaxy. The AI immediately released the
                   300,000 stored algorithms and built bases to reproduce the 100 billion
@@ -255,7 +255,7 @@ function App() {
           <h1>Road map</h1>
           <div style={{
             width: "1px",
-            height: isPc ? "1100px" : "1580px",
+            height: isPc ? "1240px" : "1540px",
             background: "#C9C9C9",
             position: "absolute",
             left: "50%",
